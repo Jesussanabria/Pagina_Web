@@ -1,0 +1,42 @@
+/* Estilos simples para replicar el estilo minimalista */
+body {
+    font-family: 'Georgia', serif; /* Fuente serif común en páginas académicas */
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    background-color: #fff;
+    color: #333;
+    max-width: 800px; /* Ancho máximo para mejor lectura */
+    margin: 0 auto; /* Centrado */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    color: #000;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover, nav a.active {
+    border-bottom: 1px solid #000;
+}
+
+.photo-credit {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 2rem;
+}
